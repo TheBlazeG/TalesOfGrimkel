@@ -19,7 +19,7 @@ public class Switch : MonoBehaviour
     }
     public void onHit()
     {
-        anim.SetBool("hit", true);
+        anim.SetBool("switched", true);
         StartCoroutine(SwitchCo());
     }
     IEnumerator SwitchCo()

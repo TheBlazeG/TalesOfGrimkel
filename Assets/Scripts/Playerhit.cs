@@ -21,7 +21,7 @@ public class Playerhit : MonoBehaviour
     {
         if (collision.CompareTag("Switchable"))
         {
-            collision.GetComponent<RBswitch>().Change();
+            collision.GetComponent<Switch>().onHit();
         }
     }
 }
